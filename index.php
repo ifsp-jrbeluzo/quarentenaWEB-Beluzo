@@ -15,11 +15,11 @@
     <body>
         <h3> Exercicio Compartilhado</h3>
 		
-        <img src="negrito.png"/>
-        <img src="italico.png"/>
-        <img src="sublinhado.png"/>
+        <img src="negrito.png" onclick="negrito()"/>
+        <img src="italico.png" onclick="italico()"/>
+        <img src="sublinhado.png" onclick="sublinhado()"/>
         
-        <div id="quadrado"><textarea id = "campo" name = "campo"></textarea></div>
+        <div id="quadrado"><textarea id = "campo" name = "campo" placeholder="Digite aqui"></textarea></div>
 		
 		<div id="quadrado2"></div>
 		
