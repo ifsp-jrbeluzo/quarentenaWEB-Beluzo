@@ -14,11 +14,14 @@
     </style>
     <body>
         <h3> Exercicio Compartilhado</h3>
-
+		
         <img src="negrito.png"/>
         <img src="italico.png"/>
         <img src="sublinhado.png"/>
         
-        <div id="quadrado"></div>
+        <div id="quadrado"><textarea id = "campo" name = "campo"></textarea></div>
+		
+		<div id="quadrado2"></div>
+		
     </body>
 </html>
