@@ -19,6 +19,9 @@
 		function negrito(){
 			document.getElementById("quadrado2").style.fontWeight = "bold";
 		}
+        function italico(){
+            document.getElementById("quadrado2").style.fontStyle ="italic";
+        }
     </script>
     <body>
         <h3> Exercicio Compartilhado</h3>
