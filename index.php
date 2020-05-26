@@ -12,6 +12,11 @@
                 height:500px;
         }
     </style>
+    <script>
+        function escreve(){
+            document.getElementById("quadrado2").innerHTML=document.getElementById("campo").value;
+        }
+    </script>
     <body>
         <h3> Exercicio Compartilhado</h3>
 		
@@ -21,7 +26,7 @@
         
         <div id="quadrado"><textarea id = "campo" name = "campo" placeholder="Digite aqui"></textarea></div>
 		
-		<div id="quadrado2"></div>
+        <div id="quadrado2"></div>
 		
     </body>
 </html>
