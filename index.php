@@ -11,14 +11,27 @@
                 width:500px;
                 height:500px;
         }
+        #quadrado2{
+                border-style:solid;
+                border-width:1px;
+                width:500px;
+                height:500px;
+        }
         
     </style>
     <script>
+        var testa_negrito=0, testa_italico=0, testa_sublinhado=0; 
         function escreve(){
             document.getElementById("quadrado2").innerHTML=document.getElementById("campo").value;
         }
 		function negrito(){
-			document.getElementById("quadrado2").style.fontWeight = "bold";
+            if(testa_negrito==0){
+                document.getElementById("quadrado2").style.fontWeight = "bold";
+                testa_negrito=1;
+            }else{
+                document.getElementById("quadrado2").style.fontWeight = "normal";
+                testa_negrito=0;
+            }
 		}
         function italico(){
             document.getElementById("quadrado2").style.fontStyle ="italic";
