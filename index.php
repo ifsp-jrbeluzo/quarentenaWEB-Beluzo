@@ -25,20 +25,39 @@
             document.getElementById("quadrado2").innerHTML=document.getElementById("campo").value;
         }
 		function negrito(){
-            if(testa_negrito==0){
-                document.getElementById("quadrado2").style.fontWeight = "bold";
-                testa_negrito=1;
-            }else{
-                document.getElementById("quadrado2").style.fontWeight = "normal";
-                testa_negrito=0;
-            }
+			
+			if(document.getElementById("quadrado2").style.fontWeight == "bold")
+			{
+				document.getElementById("quadrado2").style.fontWeight = "normal";
+			}
+			else
+			{
+				 document.getElementById("quadrado2").style.fontWeight = "bold";
+			}
+		
 		}
         function italico(){
-            document.getElementById("quadrado2").style.fontStyle ="italic";
-        }
+			
+			if(document.getElementById("quadrado2").style.fontStyle == "italic")
+			{
+				document.getElementById("quadrado2").style.fontStyle ="normal";
+			}
+			else
+			{
+				document.getElementById("quadrado2").style.fontStyle ="italic";
+			}
+		}
         function sublinhado(){
-            document.getElementById("quadrado2").style.textDecoration ="underline";
-        }
+		
+			if(document.getElementById("quadrado2").style.textDecoration == "underline")
+			{
+				document.getElementById("quadrado2").style.textDecoration ="none";
+			}
+			else
+			{
+				document.getElementById("quadrado2").style.textDecoration ="underline";
+			}
+		}
     </script>
     <body>
         <h3> Exercicio Compartilhado</h3>
