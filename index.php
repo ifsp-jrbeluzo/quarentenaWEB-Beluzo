@@ -11,6 +11,7 @@
                 width:500px;
                 height:500px;
         }
+        
     </style>
     <script>
         function escreve(){
@@ -21,6 +22,9 @@
 		}
         function italico(){
             document.getElementById("quadrado2").style.fontStyle ="italic";
+        }
+        function sublinhado(){
+            document.getElementById("quadrado2").style.textDecoration ="underline";
         }
     </script>
     <body>
