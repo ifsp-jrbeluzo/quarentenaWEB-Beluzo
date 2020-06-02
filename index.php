@@ -73,6 +73,6 @@
 
             <div id="quadrado2" style = "display: table-cell;"></div>
         </div>
-
+        <!-- modificação do beluzo-->
     </body>
 </html>
